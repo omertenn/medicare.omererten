@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --main-dark-blue: #061A3A;
+    --main-blue: #07CCEC;
+    --main-hover-blue: #4285F4;
+    --main-color-pink: #BE63F9;
+    --white: #fff;
+    --dark-white: #F5F9FF;
+    --gray: #566D89;
+    --faq: #F5F6F6;
+
+}
+
+.bg-dark-blue {
+    background-color: var(--main-dark-blue);
+}
+
+.text-span-blue {
+    color: var(--main-blue);
+    font-size: 14px;
+}
+
+.text-span-pink {
+    color: var(--main-color-pink);
+    font-size: 14px;
+}
+
+.text-span-main-blue {
+    color: var(--main-blue);
+    font-size: 14px;
+}
+
+.btn-info {
+    color: var(--white) !important;
+}
+
+.color-dark-blue {
+    color: var(--main-dark-blue);
+}
+
+.bg-light{
+    background-color: var(--faq)!important;
+}
+
+.right-icons {
+    background-color: var(--main-blue);
+    border-radius: 50%;
+    color: var(--white);
+    padding: 20px;
+    margin-top: -25px;
+}
+
+
+ul.menu-bar li {
+    list-style: none;
+    display: inline;
+    border-right: 1px solid var(--dark-white);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ul.menu-bar i {
+    color: var(--dark-white);
+    font-size: 14px;
+}
+
+ul.menu-bar a {
+    text-decoration: none;
+    color: var(--dark-white);
+    font-size: 14px;
+}
+
+.menu-icon-info {
+    color: var(--dark-white);
+    font-size: 17px;
+}
+
+/*nav*/
+ul.header-menu li a {
+    font-weight: 700;
+    margin-right: 10px;
+    transition: 0.5s;
+    color: var(--main-dark-blue);
+}
+
+/*nav*/
+
+
+/*best medical care*/
+ul.header-menu li a:hover {
+    color: var(--main-blue);
+}
+
+.banner-title span {
+    display: block;
+}
+
+.banner-title {
+    color: var(--white);
+    font-size: 3.7rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.banner-img img {
+    height: 500px;
+    width: 500px;
+}
+
+/*best medical care*/
+.box img {
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+
+.about-titles h2 {
+    color: var(--main-dark-blue);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about-titles p {
+    color: var(--gray);
+    font-size: 15px;
+}
+
+.about-icon i {
+    color: var(--main-blue);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.about-icon span {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.medical-servis i {
+    color: var(--main-blue);
+    font-size: 2.6rem;
+}
+
+.medical-servis h3 {
+    color: var(--main-dark-blue);
+    font-size: 1.4rem;
+}
+
+.medical-servis p {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.medical-servis {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.medical-servis:hover {
+    background-color: var(--main-hover-blue) !important;
+}
+
+.medical-servis:hover i,
+.medical-servis:hover h3,
+.medical-servis:hover p {
+    color: var(--white);
+}
+
+.choose {
+    background-color: var(--main-hover-blue);
+}
+
+.choose-title {
+    color: var(--white);
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.choose-image img {
+    width: auto;
+    height: 100%;
+}
+
+.choose-icon {
+    color: var(--white);
+}
+
+.choose-icon i {
+    font-size: 1.4rem;
+    margin-right: 15px;
+}
+
+.faq-image img {
+    position: relative;
+}
+
+.faq-title {
+    font-weight: 600;
+}
+
+.faq-icon {
+    background-color: var(--faq);
+    display: flex;
+    align-items: center;
+}
+
+.faq-icon .faq-one {
+    width: 50px;
+    height: 50px;
+}
+
+.faq-icon h6 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.left-icons {
+    background-color: var(--white);
+    border-radius: 50%;
+    color: var(--main-dark-blue);
+    padding: 20px;
+}
+
+.testimonial {
+    background-color: var(--faq);
+}
+
+
+.card-body .card-info{
+    width: 10rem;
+}
+
+.news-blog h3{
+    font-size: 1.4rem;
+     color: var(--main-dark-blue);
+}
+
+.news-blog p{
+    font-size: 14px;
+     color: var(--gray);
+}
+
+.footer{
+    background-color: var(--main-dark-blue);
+    color: var(--white);
+}
+
+.footer-link ul li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+ul li{
+    list-style: none;
+}
+
+.information ul li{
+    margin-right: 10px;
+}
+
+.footer-ikon i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-ikon i:hover{
+    background-color: var(--white);
+    color: var(--main-dark-blue);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.logo-text{
+    color: var(--white);
+}
+
+.information ul li a{
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 10px;
+}
+
+.information ul li a:hover{
+    color: var(--main-blue);
+    transition: .5s;
+}
+
+.footer-link ul li a:hover{
+    color: var(--main-blue);
+    transition: .5s;
+}
+
+.world-img { background-image: url("dunya.png"); background-position: right center; background-repeat: no-repeat; background-size: contain; }
+
+@media  screen and (max-width: 962px) {
+    .card{
+       
+        width: 100%;
+    }
+}
